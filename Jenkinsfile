@@ -9,5 +9,4 @@ node {
         echo 'prune and cleanup'
         sh 'npm prune'
         sh 'rm node_modules -rf'
-
 }
